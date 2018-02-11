@@ -1,36 +1,6 @@
-# macOS crap
-.DS_Store
-
-# Node.js / npm
+# node / npm
 node_modules
-npm-debug.log
-
-# code coverage
-coverage
-
-# build
-lib
-
-# tests results
-**/__tests__/_output*
-
-# docs
-*/docs/**/*.mov
-*/docs/**/*.pxm
-*/docs/node_modules
-*/docs/dist
-*/docs/content/assets/showcases/*
-
-# phenomic-theme-base files to work on it
-themes/phenomic-theme-base/dist
-test-setup
-
-# logo
-logo/*.png
-
-# lazy us: 1.0 is changing all of this
-examples/*
-package-lock.json
 *.log
-docs/public/*
-.merlin
+
+# phenomic build
+dist
